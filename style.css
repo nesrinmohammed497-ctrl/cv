@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(221, 152, 253);
+    margin: 0;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.info{
+    padding: 50px 30px;
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(71, 12, 71, 0.89);
+    height: 750px;
+    color: rgb(215, 161, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+
+}
+.info h3 {
+    font-size: 30px;
+}
+
+.top{
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+.main{
+    background-color: rgb(197, 223, 248);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1{
+    background-color: rgb(131, 59, 141);
+    justify-content: center;
+    padding: 30px ;
+    font-size: 50px;
+    color: rgb(250, 195, 225);
+    font-weight: bolder;
+    word-wrap: break-word;
+    margin: 0;
+    
+    
+}
+
+img{
+    border-radius: 50%;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+
+}
+.pg{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(89, 64, 146);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 250px;
+    flex-direction: row;
+    color: rgb(228, 196, 255);
+    align-items: center;
+}
+
+a{
+    align-self: center;
+    margin-left: 15px;
+    color: lightcoral;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
